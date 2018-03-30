@@ -1,0 +1,5 @@
+SQL TEST:
+
+1) SELECT count(*) as count, ip FROM access_log WHERE time BETWEEN #2017-01-01 13:00:00# AND #2017-01-01 14:00:00# GROUP BY ip HAVING count >= 100
+
+2) SELECT count(*) as count from access_log where ip='192.168.1.1'
